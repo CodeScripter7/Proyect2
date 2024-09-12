@@ -1,0 +1,8 @@
+@media (max-width: 830px) {
+    .column {
+       flex-direction: column;
+      align-items: center;
+      
+    }
+  }
+  

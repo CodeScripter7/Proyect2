@@ -1,0 +1,153 @@
+
+.work_contenido{
+    width: 100%;
+    margin-bottom: 120px;
+ 
+}
+.grid-work{
+margin: 0 auto;
+display: flex;  
+flex-wrap: wrap;
+justify-content: center;
+gap: 100px ;
+}
+
+.dentro5 p{
+    margin: 20px;
+}
+.section{
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    width: 100%;
+    width: calc(40% - 20px);
+    height: 350px;
+    margin: 20px 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    justify-items: center;
+    text-align: center   
+    
+}
+
+.section img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card0 {
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: 1px solid white;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 4px 0px rgb(0, 0, 0);
+    text-align: center;
+    background: linear-gradient(-135deg, #aa50c8, #4171d0);
+}
+
+.card0:hover{
+ height: 420px;
+ width: 55%;
+ border-radius: 10px;
+ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+    .card {
+        width: 400px;
+        height: 250px;
+        overflow: hidden;
+        padding: 10px 30px;
+        border-radius: 18px;
+        border: 1px solid white;
+        transition: all .4s ease-in-out;
+        box-shadow: 0px 1px 4px 0px rgb(0, 0, 0);
+        text-align: center;
+        background: linear-gradient(-135deg, #aa50c8, #4171d0);
+}
+
+    .card:hover{
+     height: 410px;
+     width: 55%;
+     border-radius: 10px;
+     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card2{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: 1px solid white;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 4px 0px black;
+    text-align: center;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.card2:hover{
+ height: 470px;
+ width: 55%;
+ border-radius: 10px;
+ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card1{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: 1px solid white;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 4px 0px black;
+    text-align: center;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.card1:hover{
+ height: 360px;
+ width: 55%;
+ border-radius: 10px;
+ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img-container {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+.image-container img {
+    max-width: 90%; 
+    max-height: 90%; 
+    
+}
+.img-container:hover img{
+    transform: scale(1.3s);
+}
+.title {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.info {
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.info:hover {
+    color: rgb(17, 106, 178);
+    font-size: 80px;
+    margin-top: -20px;
+}
+
+.img-cat {
+    width: 100px;
+}

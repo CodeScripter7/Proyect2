@@ -1,0 +1,103 @@
+
+
+.social ul {
+  list-style-type: none;
+  padding: 0; 
+  display: flex; 
+  gap: 10px;
+   }
+.social img {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+.social li {
+  cursor: pointer;
+  list-style: none;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+.columns{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2,1fr)
+}
+
+.column {
+  display:flex;
+  padding-inline: 50px;
+}
+
+
+
+.contact-conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .contact-conteiner form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  .contact-conteiner .campo,
+  .contact-conteiner textarea {
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 15px 10px;
+    font-size: 14px;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+  }
+  
+  .contact-conteiner textarea {
+    min-height: 140px; 
+    resize: vertical; 
+  }
+  
+  .contact-conteiner .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  
+  .contact-conteiner .btn-enviar:hover {
+    background: #4823ce;
+  }
+
+  .mapa{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .mapa h2{
+    margin-top: 20px;
+  }
+  .mapa p{
+    margin-bottom: 10px;
+  }
+  @media(max-width:750px){
+    .mapa iframe{
+      width: 90%;
+      height: auto;
+    }
+
+    .columns{
+      margin: 20px;
+      display: grid;
+      grid-template-columns: none;
+    }
+  }
